@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Consumidor">
+        <menu>
+
+            <item
+                android:id="@+id/perfil"
+                android:icon="@drawable/baseline_face_24"
+                android:title="Perfil" />
+
+            <item
+                android:id="@+id/payment"
+                android:icon="@drawable/baseline_account_balance_wallet_24"
+                android:title="Formas de pagamento" />
+
+            <item
+                android:id="@+id/abastecer"
+                android:icon="@drawable/baseline_local_gas_station_24"
+                android:title="Quero abastecer" />
+        </menu>
+    </item>
+
+    <item android:title="Posto de Gasolina">
+        <menu>
+            <item
+                android:id="@+id/cadastro_posto"
+                android:icon="@drawable/baseline_store_mall_directory_24"
+                android:title="Cadastrar meu posto" />
+            <item
+                android:id="@+id/alteracao"
+                android:icon="@drawable/baseline_create_24"
+                android:title="Alterar informações" />
+        </menu>
+    </item>
+
+    <item android:title=" ">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Sair"
+                android:visible="true" />
+
+        </menu>
+    </item>
+
+</menu>
